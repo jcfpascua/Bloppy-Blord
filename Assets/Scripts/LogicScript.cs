@@ -16,6 +16,7 @@ public class LogicScript : MonoBehaviour
     {
         winText.gameObject.SetActive(false);
         playAgainButton.gameObject.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     [ContextMenu("Increase Score")]
